@@ -7,10 +7,17 @@
 </head>
 <body>
     <script>
-        let nome = "Ali";
-        let cognome = "Alazhar";
-        let eta = 31;
+        let nome = prompt("Inserisci il tuo nome:");
+        let cognome = prompt("Inserisci il tuo cognome:");
+        let eta = prompt("Inserisci la tua età:");
         alert("Ciao " + nome + " " + cognome + ", hai " + eta + " anni.");
+        if (eta < 18) {
+            alert("Sei minorenne.");
+        } else {
+            alert("Sei maggiorenne.");
+        }
+      
+    
     </script>
     
 
